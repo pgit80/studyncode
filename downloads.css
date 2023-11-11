@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(2, 40, 45);
+  }
+  button{
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#e6df22;
+    text-decoration: none;
+    background-color: rgb(2, 40, 45);
+  }
+  .nav_links li{
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#e6df22;
+    text-decoration: none;
+    background-color: rgb(2, 40, 45);
+  }
+  .logo{
+    width:11%;
+    cursor:pointer;
+    background-color: rgb(2, 40, 45);
+  }
+  .nav_links{
+    list-style: none;
+  }
+  .nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .nav_links li a{
+    transition: all 0.3s ease 0s;
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#e6df22;
+    text-decoration: none;
+    background-color: rgb(2, 40, 45);
+  }
+  .nav_links li a:hover{
+    color: #07c8f8;
+  }
+  button{
+    padding:9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+  }
+  button:hover{
+    background-color: rgba(0,136,169,0.8);
+  }
+.tcontent,tr{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tcontent td{
+  font-size: 25px;
+  padding: 5px;
+  border-spacing: 20px;
+}
+.tcontent a{
+  color: blue;
+}
+#comp{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer_content{
+    background-color: rgb(2, 40, 45);
+    border:1px solid black;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 200px) and (max-width: 767px){
+    .container{
+      width: 100%;
+      flex-direction: column;
+    } 
+    .container_cards{
+      margin: 10px;
+    }
+  }
